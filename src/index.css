@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'durer';
+  src: url('fonts/durer-webfont.woff2') format('woff2'),
+       url('fonts/durer-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'GraublauWeb';
+  font-weight: bold;
+  src: url("fonts/WILD WORLD.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Thunder';
+  src: url("fonts/Thunder/Thunder-BoldHC.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HKG';
+  src: url("fonts/hkgroteskwide-black.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+
+:root {
+  --font-primary: durer;
+  --color-bg: #6e7570;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1vw;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,21 @@
+.Banner .content .artist .left .name h2 {
+  color: rgb(0, 0, 0);
+  font-family: 'Thunder';
+  font-weight: bold;
+  text-transform: uppercase;
+  align-items: center;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 25, 152);
+}
+
+.Banner .content .artist .left p {
+  color:rgb(255, 255, 255)
+}
+
+.Banner .content .artist .left span {
+  color:rgb(255, 255, 255)
+}
+
+.Banner .content .breadCrump p {
+  color:rgb(0, 0, 0)
+}
